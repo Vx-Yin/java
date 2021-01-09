@@ -1,0 +1,29 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 32784 bytes for Chunk::new
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#
+#  Out of Memory Error Windows 10 , 64 bit Build 18362 (10.0.18362.1110)
+Time: Thu Jan  7 09:34:13 2021 ?D1¨²¡À¨º¡Á?¨º¡À?? elapsed time: 1579 seconds (0d 0h 26m 19s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000001e2d0c0d000):  JavaThread "C2 CompilerThread0" daemon [_thread_in_native, id=16020, stack(0x000000cba9500000,0x000000cba9600000)]
+
+
+Current CompileTask:
+C2:1579010 1370       4       jdk.internal.org.objectweb.asm.SymbolTable::addConstantUtf8 (98 bytes)
+
+Stack: [0x000000cba9500000,0x000000cba9600000]
+[error occurred during error reporting (printing stack bounds), id 0xc00000fd, EXCEPTION_STACK_OVERFLOW (0xc00000fd) at pc=0x000001e2ba2f10ad]
+

@@ -1,0 +1,10 @@
+cn.edu.jsu.yao.dao
+cn.edu.jsu.yao.dao.impl
+cn.edu.jsu.yao.dbc
+cn.edu.jsu.yao.factory
+cn.edu.jsu.yao.frm
+cn.edu.jsu.yao.Run
+cn.edu.jsu.yao.service
+cn.edu.jsu.yao.service.impl
+cn.edu.jsu.yao.text
+cn.edu.jsu.yao.vo
